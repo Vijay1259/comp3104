@@ -13,11 +13,11 @@ const App = () => {
   return (
     <div className="App">
       <h1>Student Information System</h1>
-      <h5>Developed By: 101414516 || Diya patel ||Devops</h5>
+      <h5>Developed By: 101414516 || Diya Patel || DevOps</h5>
       <StudentForm addStudent={addStudent} />
       <StudentList students={students} />
     </div>
   );
 };
 
-export default App;
+export default App;
